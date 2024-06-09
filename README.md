@@ -10,12 +10,33 @@
 - Bad for insertion at the start, takes O(n) time
 - Bad for insertions and deletions in the middle
 
+```kotlin
+val array = Array(5) {
+//If you want to initialise the array with a default value
+    0
+}
+
+array[1] = 1
+
+val array2 = arrayOf(1,2,3)
+
+val arrayList = arrayListOf<String>()
+
+arrayList.add("Hello")
+
+```
+
+
 
 ### LinkedList 
 
 - Good for inserting at the start
 - Good for deleting and adding in the middle
 - Bad for random access
+
+```kotlin
+
+```
 
 ### stacks 
 
