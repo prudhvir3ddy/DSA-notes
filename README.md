@@ -59,7 +59,12 @@
 
 ### Binary search tree
 
+- The left subtree will always be smaller than the root and the right subtree will always be greater than the root
+
 ### Self-balanced binary search tree
+
+- In BST, there is an edge case where elements on the left or right can keep growing and lead to an O(n) search
+- Self-balancing is about maintaining the tree so that the search can be O(logn) 
 
 ### Heaps 
 
@@ -70,6 +75,10 @@
 - Insertion/deletion will be O(logn)
 
 ### Graphs 
+
+| directed + weighted | undirected + weighted | undirected + unweighted | directed + unweighted | 
+| ------------------- | --------------------- | ----------------------- | --------------------- |
+| Flight tickets      | Road network          | Facebook friends        | Twitter followers, dependencies  |
 
 
 ## Algorithms 
