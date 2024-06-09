@@ -4,13 +4,14 @@
 
 ### Arrays / ArrayList
 
-- Good for random access and when you know number of elements before itself
+- Good for random access and when you know the number of elements before itself
 - Good for inserting elements at the end
 - Each time the space gets over the ArrayList size expands to 2x leading to O(1) complexity for inserting at the end
 - Bad for insertion at the start, takes O(n) time
-- Bad for insertions and deletions in middle
+- Bad for insertions and deletions in the middle
 
-### Linkedlist 
+
+### LinkedList 
 
 - Good for inserting at the start
 - Good for deleting and adding in the middle
@@ -18,17 +19,55 @@
 
 ### stacks 
 
+- LIFO ( Last in first out )
+- operations
+   - addFirst()
+   - removeFirst()
+   - first() 
+- Good for adding/deleting/accessing top element
+- Bad for accessing random elements
+
 ### queues 
+
+- FIFO ( First in first out )
+- operations
+  - addLast()
+  - removeFirst()
+  - first()
+  - last()
+- Good for adding/deleting/getting the first and last element
+- Bad for accessing random elements
 
 ### Hashmap 
 
-- Buckets of linkedlist - this datastructure is as good as the hash keys
-- O(1) average time complexity for insertion, deletion, update, access using key but worst can be O(n) for all
-
+- Buckets of LinkedList - this data structure is as good as the hash keys
+- O(1) average-case time complexity for insertion, deletion, update, and access using a key
+- O(n) worst-case time complexity for all operations.
 
 ### Binary trees 
 
+- Non-linear data structure and a special form of a graph
+- In a binary tree, Each node can have at max 2 nodes
+- Traversal using BFS / DFS
+- BFS
+  - Level order order traversal using a queue
+- DFS
+  - In order ( Left root right )
+    - When you traverse a binary search tree using in-order you should see elements are sorted
+  - Post order ( Left right root)
+  - Pre-order ( root left right ) 
+
+### Binary search tree
+
+### Self-balanced binary search tree
+
 ### Heaps 
+
+- Always maintain the complete binary tree structure
+  - Complete binary tree means when filling the tree fill from left to right
+    
+- Getting the min/max element will be an O(1) operation
+- Insertion/deletion will be O(logn)
 
 ### Graphs 
 
