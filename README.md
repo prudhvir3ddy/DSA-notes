@@ -1,5 +1,9 @@
 # DSA-notes
 
+
+
+https://docs.google.com/document/d/10q6E2kF0S3FgeY5wpsBpemUUpankDudj8octxfVw7Cc/edit
+
 ## Data structures 
 
 ### Arrays / ArrayList
@@ -26,6 +30,9 @@ arrayList.add("Hello")
 
 ```
 
+#### common concepts
+
+- subarrays, subsequences, subsets
 
 
 ### LinkedList 
@@ -35,8 +42,18 @@ arrayList.add("Hello")
 - Bad for random access
 
 ```kotlin
-
+data class Node(
+    var data: Int,
+    var next: Node? = null,
+    var prev: Node? = null, // for doubly linked list
+)
 ```
+
+#### common questions 
+
+- Reversing the LinkedList
+- questions based on the fast-slow pointer technique
+- starting point of cycle in the LinkedList
 
 ### stacks 
 
@@ -47,6 +64,10 @@ arrayList.add("Hello")
    - first() 
 - Good for adding/deleting/accessing top element
 - Bad for accessing random elements
+
+#### common questions 
+
+- valid brackets
 
 ### queues 
 
@@ -69,6 +90,13 @@ arrayList.add("Hello")
 
 - Non-linear data structure and a special form of a graph
 - In a binary tree, Each node can have at max 2 nodes
+
+ 
+#### common questions 
+
+- inverting a binary tree
+- diameter of a binary tree
+- the height/depth of a binary tree
 - Traversal using BFS / DFS
 - BFS
   - Level order order traversal using a queue
@@ -76,7 +104,7 @@ arrayList.add("Hello")
   - In order ( Left root right )
     - When you traverse a binary search tree using in-order you should see elements are sorted
   - Post order ( Left right root)
-  - Pre-order ( root left right ) 
+  - Pre-order ( root left right )
 
 ### Binary search tree
 
