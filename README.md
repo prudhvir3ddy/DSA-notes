@@ -33,7 +33,12 @@ arrayList.add("Hello")
 #### common concepts
 
 - subarrays, subsequences, subsets
-
+- Longest substring without repeating charaters
+  - use the data structure which remembers what we seen before
+  - update the first pointer till there are no duplicates 
+- Maximum subarray
+  - Trick is make sure to calculate the running sum
+  - Check if it's worth to add up negative numbers 
 
 ### LinkedList 
 
@@ -52,6 +57,7 @@ data class Node(
 #### common questions 
 
 - Reversing the LinkedList
+  - try to reverse one link and repeat
 - questions based on the fast-slow pointer technique
 - starting point of cycle in the LinkedList
 
@@ -85,6 +91,7 @@ data class Node(
 - Buckets of LinkedList - this data structure is as good as the hash keys
 - O(1) average-case time complexity for insertion, deletion, update, and access using a key
 - O(n) worst-case time complexity for all operations.
+- Use it to remember the past 
 
 ### Binary trees 
 
@@ -105,6 +112,8 @@ data class Node(
     - When you traverse a binary search tree using in-order you should see elements are sorted
   - Post order ( Left right root)
   - Pre-order ( root left right )
+- Print path from root to any node
+- Least common ancestor
 
 ### Binary search tree
 
