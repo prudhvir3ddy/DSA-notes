@@ -103,6 +103,10 @@ You will not think while writing loops, other standard algorithms should also st
 
 ### Resources for learning 
 
+There are 100s of resources, use the DFS approach here
+
+Just pick 2-3 resources and go in-depth instead if you try many resources you will cover basics in all which is not useful. 
+
 - techinterviewhandbook.org
 - leetcode.com
 - neetcode.io/roadmap
