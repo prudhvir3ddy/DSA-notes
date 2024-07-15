@@ -9,11 +9,17 @@ You need to know DSA already.
 1. Two pointers
 
 https://leetcode.com/problems/two-sum/
+
 https://leetcode.com/problems/3sum/
+
 https://leetcode.com/problems/move-zeroes/
+
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
 https://leetcode.com/problems/sort-colors/
+
 https://leetcode.com/problems/reverse-words-in-a-string/
+
 https://leetcode.com/problems/valid-palindrome-ii/description/
    
 3. Fast and slow pointers
