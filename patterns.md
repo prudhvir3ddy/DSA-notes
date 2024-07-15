@@ -15,7 +15,7 @@ You need to know DSA already.
 - https://leetcode.com/problems/sort-colors/
 - https://leetcode.com/problems/reverse-words-in-a-string/
 - https://leetcode.com/problems/valid-palindrome-ii/description/
-   
+
 3. Fast and slow pointers
 4. Sliding window
 5. Merge intervals
@@ -39,5 +39,5 @@ You need to know DSA already.
 23. Hashmaps
 24. Tracking
 25. Union Find
-26. Custom datastructures
+26. Custom data structures
 27. Bitwise manipulation
