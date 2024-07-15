@@ -30,7 +30,7 @@ You need to know DSA already.
 14. Dynamic programming
 15. Cyclic sort
 16. Topological sort
-17. Matrices
+17. Matrices ( islands )
 18. Stacks
 19. Graphs
 20. DFS
