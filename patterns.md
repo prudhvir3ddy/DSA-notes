@@ -7,28 +7,37 @@ You need to know DSA already.
 //TODO fill in those 5 problems here. 
 
 1. Two pointers
-2. Fast and slow pointers
-3. Sliding window
-4. Merge intervals
-5. In-place manipulation of LinkedLists
-6. Two heaps
-7. K-way merge
-8. Top K elements
-9. Modified binary search
-10. Subsets
-11. Greedy techniques
-12. Backtracking
-13. Dynamic programming
-14. Cyclic sort
-15. Topological sort
-16. Matrices
-17. Stacks
-18. Graphs
-19. DFS
-20. BFS
-21. Trie
-22. Hashmaps
-23. Tracking
-24. Union Find
-25. Custom datastructures
-26. Bitwise manipulation
+
+https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/3sum/
+leetcode.com/problems/move-zeroes/
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+https://leetcode.com/problems/sort-colors/
+https://leetcode.com/problems/reverse-words-in-a-string/
+https://leetcode.com/problems/valid-palindrome-ii/description/
+   
+3. Fast and slow pointers
+4. Sliding window
+5. Merge intervals
+6. In-place manipulation of LinkedLists
+7. Two heaps
+8. K-way merge
+9. Top K elements
+10. Modified binary search
+11. Subsets
+12. Greedy techniques
+13. Backtracking
+14. Dynamic programming
+15. Cyclic sort
+16. Topological sort
+17. Matrices
+18. Stacks
+19. Graphs
+20. DFS
+21. BFS
+22. Trie
+23. Hashmaps
+24. Tracking
+25. Union Find
+26. Custom datastructures
+27. Bitwise manipulation
