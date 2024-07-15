@@ -10,7 +10,7 @@ You need to know DSA already.
 
 https://leetcode.com/problems/two-sum/
 https://leetcode.com/problems/3sum/
-leetcode.com/problems/move-zeroes/
+https://leetcode.com/problems/move-zeroes/
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 https://leetcode.com/problems/sort-colors/
 https://leetcode.com/problems/reverse-words-in-a-string/
